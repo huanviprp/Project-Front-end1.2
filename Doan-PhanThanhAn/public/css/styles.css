@@ -1,0 +1,369 @@
+.top-header{
+    background-image: url('../images/banner/banner-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #8F8F8F;
+    width: auto;
+    height: 900px;
+}
+.top-header .text-banner .btn{
+    color: #222;
+    background-color: #ffd230;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;  
+}
+.top-header .text-banner h2{
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 30px 20px;
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: red !important;
+}
+.hdrate{
+    text-align: center;
+    font-size: 10px;
+    height: 20px;
+}
+.text-banner{
+    padding-top: 200px;
+}
+.text-banner .cast p{
+    margin-bottom: 0;
+    font-family: 'Vollkorn', serif;
+    font-size: 12px;
+}
+.text-banner .lorem{
+    font-weight: 500 !important;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    font-family: 'Quicksand', serif;
+    font-size: 16px ;
+}
+.content .bottom-header .img-text{
+    position: relative;
+}
+.content .bottom-header .img-text .text-white{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.content .bottom-header img{
+    border-radius: 10px;
+}
+.movie-content{
+    border: 1px solid #eee;
+    background-color: #f9fbfd;
+}
+.latest-movies .movie-content .tittle{
+    font-size: 17px ;
+    color: #8F8F8F !important;
+}
+.latest-movies .movie-content .bottom a{
+    color: black;
+}
+.latest-movies .latest h2{
+    font-weight: 700;
+}
+.movies-card{
+    background-color: black;
+    z-index: 999;
+}
+.movie-img{
+    position: relative;
+}
+.movie-img img{
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.6;
+    object-fit: cover;
+    width: auto;
+    height: 300px;
+}
+.movie-img .btn-top .btn{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 12px;
+    padding: 3px 5px;
+    z-index: 999;
+}
+.movie-img .btn-top p{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    top: 10px ;
+    right: 15px;
+    font-size: 12px;
+    z-index: 999;
+}
+.list ul{
+    position: absolute;
+    bottom: 0;
+    z-index: 999999;
+}
+.list ul li{
+    font-size: 14px;
+    list-style-type: none;
+    display: inline-block;   
+}
+.list ul li a{
+    color: white;
+    margin-right: 10px;
+}
+
+.movie-content .tittle:hover{
+    color: red !important;
+}
+.movie-img img:hover{
+    opacity: 1;
+}
+.tv-show{
+    background-color: #1E2129;
+}
+.tv-show h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.tv-show .btn-top .btn{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 12px;
+    padding: 3px 5px;
+    z-index: 999;
+}
+.tv-show .btn-top p{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    top: 10px ;
+    right: 15px;
+    font-size: 12px;
+    z-index: 999;
+}
+.tv-show .align-items-center{
+    padding: 10px 0;
+}
+.tv-show a{
+    text-decoration: none;
+    color: white;
+}
+.tv-show p a{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #DADADA;
+}
+.tv-show p{
+    margin-bottom: 0.5rem;
+}
+.new-trailor .movie-trailer .play{
+    position: relative;
+}
+.new-trailor .movie-trailer img{
+    border-radius: 3%;
+    object-fit: cover;
+}
+.buttons i{
+    position: absolute;
+    font-size: 65px;
+    top: 30%;
+    left: 40%;
+    color: white;
+}
+.buttons i:hover{
+    color: red;
+}
+.new-trailor .movie-trailer .text{
+    display: block;
+    padding: 20px 0;
+}
+.new-trailor .movie-trailer .text a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.new-trailor .movie-trailer .text p{
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+    color: #7b7b7b;
+    margin-bottom: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.live-streaming{
+    background-color: #e2e2e2;
+    padding-bottom: 70px !important;
+}
+.live-streaming .live-card{
+    position: relative;
+    background-color: black;
+    z-index: 999;
+}
+.live-streaming .live-card img{
+    display: block;
+    opacity: 0.6;
+    object-fit: cover;
+}
+.live-streaming .live-card .btn{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.live-streaming .live-card a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    bottom: 10px;
+    left: 10px;
+}
+.live-streaming .live-card img:hover{
+    opacity: 1;
+}
+.recent-movies{
+    font-family: 'Poppins', sans-serif;
+}
+.recent-movies h2{
+    font-weight: 700;
+}
+.recent-movies .recent .days a{
+    text-decoration: none;
+    color: #8F8F8F;
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+.recent-movies .recent .days .action{
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
+.recent-movies .recent .days .about:hover{
+    color: red !important;
+}
+.recent-movies .recent-movies-img{
+    position: relative;
+    background-color: black;
+    height: 300px;
+}
+.recent-movies-card .btn-top .btn{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: 600;
+    z-index: 9999;
+    font-size: 12px;
+    padding: 2px 4px;
+}
+.recent-movies-card .recent-movies-img img{
+    display: block;
+    opacity: 0.6;
+    object-fit: cover;
+    height: 300px;
+}
+.recent-movies-card .recent-movies-img img:hover{
+    opacity: 1;
+}
+.recent-movies-card .btn-top p{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    z-index: 999;
+}
+.recent-movies-card h6 a{
+    color: black;
+    font-weight: 700;
+    font-size: 17px;
+}
+.recent-movies-card p a{
+    color: #DADADA;
+    font-size: 12px;
+}
+.video-avengers{
+    background-color: #1E2129;
+    background-image: url(../images/banner/banner-3.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.video-avengers h2{
+    font-size: 50px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.video-avengers ul{
+    padding-left: 0;
+    margin: 20px 0;
+}
+.video-avengers ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+    color: #e41a1a;
+    font-size: 20px;
+}
+.video-avengers p{
+    margin: 0;
+}
+.video-avengers .about-img{
+    position: relative;
+}
+.video-avengers .about-img .play a i{
+    position: absolute;
+    color: #ffffff;
+    background: #e41a1a;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 23px;
+    top: 30%;
+    left: 45%;
+}
+footer{
+    font-family: 'Quicksand', sans-serif;
+}
+footer p{
+    color: #8F8F8F;
+    margin: 8px 0px 15px;
+    font-size: 14px;
+}
+footer h4{
+    font-size: 24px;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #8F8F8F;
+    line-height: 36px;
+    margin-right: 20px;
+}
+footer ul li a:hover{
+    color: #dc3545 !important;
+}
+.copy-right p{
+    font-weight: 600;
+    color: #8F8F8F;
+}
+
